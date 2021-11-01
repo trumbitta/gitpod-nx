@@ -12,8 +12,6 @@ Click the button below to start a new development environment:
 
 ## Get started with your own project
 
-### A new project
-
 - Click the above "Open in Gitpod" button to start the creation of a new Nx workspace
 - Once you're ready to push your first code changes, use the "Source Control" panel to save and sync your changes: VSCode and Gitpod will guide you to fork this project so you own it
 
