@@ -8,7 +8,7 @@ Ephemeral development environments for the most powerful monorepo tool ever.
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/trumbitta/gitpod-nx)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/trumbitta/gitpod-nx)
 
 ## Get started with your own project
 
