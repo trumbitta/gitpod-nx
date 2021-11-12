@@ -1,7 +1,7 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
   - init: npm i -g @nrwl/cli create-nx-workspace
-    command: mv .gitpod.yml ../ && rm -rf *.* .git LICENSE && clear && create-nx-workspace . && mv ../.gitpod.yml .
+    command: mv .gitpod-template.yml ../ && rm -rf *.* .git LICENSE .gitpod.yml && clear && create-nx-workspace . && mv ../.gitpod-template.yml .
 ports:
   - port: 4200
     onOpen: open-preview
