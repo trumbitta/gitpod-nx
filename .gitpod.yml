@@ -6,7 +6,8 @@ tasks:
       rm -rf *.* .git LICENSE .gitpod.yml &&
       clear && create-nx-workspace . &&
       mv ../.gitpod-template.yml ./gitpod.yml &&
-      git commit -am "build(gitpod): add base configuration"
+      git add gitpod.yml &&
+      git commit -m "build(gitpod): add base configuration"
 ports:
   - port: 4200
     onOpen: open-preview
