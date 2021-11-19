@@ -2,9 +2,10 @@
 tasks:
   - init: npm i -g @nrwl/cli create-nx-workspace
     command: |
-      mv .gitpod-template.yml ../ &&
+      mv .gitpod-template.yml create-nx-workspace.sh ../ &&
       rm -rf *.* .git LICENSE .gitpod.yml &&
-      clear && create-nx-workspace . &&
+      clear && bash ../create-nx-workspace.sh &&
+      rm ../create-nx-workspace.sh &&
       mv ../.gitpod-template.yml .gitpod.yml &&
       git add .gitpod.yml &&
       git commit -m "build(gitpod): add base configuration"
