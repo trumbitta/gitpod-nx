@@ -1,6 +1,6 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: npm i -g @nrwl/cli create-nx-workspace
+  - init: npm i -g nx create-nx-workspace
     command: |
       mv .gitpod-template.yml create-nx-workspace.sh ../ &&
       rm -rf *.* .git LICENSE .gitpod.yml &&
