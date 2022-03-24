@@ -1,6 +1,9 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: npm i -g @nrwl/cli commitizen && npm i
+  - before: |
+      npm i -g nx commitizen
+    init: |
+      npm install
 ports:
   - port: 4200
     onOpen: open-preview
