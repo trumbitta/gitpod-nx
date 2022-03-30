@@ -4,6 +4,7 @@ tasks:
     command: |
       mv .gitpod-template.yml create-nx-workspace.sh ../ &&
       rm -rf *.* .git LICENSE .gitpod.yml &&
+      touch error.log &&
       clear && bash ../create-nx-workspace.sh &&
       rm ../create-nx-workspace.sh &&
       mv ../.gitpod-template.yml .gitpod.yml &&
