@@ -3,4 +3,4 @@ if [[ -z $GPNX_NAME ]]; then
     read GPNX_NAME
 fi
 
-create-nx-workspace --name=$GPNX_NAME --directory=.
+create-nx-workspace --name=$GPNX_NAME --directory=. --nx-cloud=false
