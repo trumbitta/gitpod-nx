@@ -1,4 +1,4 @@
-# 🍊💜🦄
+# 🍊💜🌊
 
 Quickly create a new [Nx](https://nx.dev/) workspace in [Gitpod](https://www.gitpod.io/) and start hacking away.
 
