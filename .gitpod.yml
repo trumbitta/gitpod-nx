@@ -3,7 +3,7 @@ tasks:
   - init: npm i -g nx create-nx-workspace
     command: |
       mv .gitpod-template.yml create-nx-workspace.sh ../ &&
-      rm -rf *.* .git LICENSE .gitpod.yml &&
+      rm -rf *.* LICENSE .gitpod.yml &&
       touch error.log &&
       clear && bash ../create-nx-workspace.sh &&
       rm ../create-nx-workspace.sh &&
